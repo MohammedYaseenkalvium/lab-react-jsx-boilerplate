@@ -1,1 +1,14 @@
 /* add your styles here */
+.h1{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vh 1vw;
+    justify-items: center;
+
+}
+.grid img{
+    width: 48vw;
+}
